@@ -10,17 +10,13 @@ Este projeto é uma aplicação desenvolvida utilizando Angular e ASP.NET Core, vis
 ## Testando as Funcionalidades da API
 ### Endpoints Disponíveis
 
-Listar Departamentos:
-
-Método: GET
+Método: GET Listar Departamentos:
 Endpoint: https://localhost:porta/api/departamento
-Obter Departamento por ID:
 
-Método: GET
+Método: GET Obter Departamento por ID:
 Endpoint: https://localhost:porta/api/departamento/{id}
-Criar Novo Departamento:
 
-Método: POST
+Método: POST Criar Novo Departamento:
 Endpoint: https://localhost:porta/api/departamento
 Payload:
 {
@@ -28,9 +24,7 @@ Payload:
   "sigla": "SIG"
 }
 
-Editar Departamento por ID:
-
-Método: PUT
+Método: PUT Editar Departamento por ID:
 Endpoint: https://localhost:porta/api/departamento/{id}
 Payload:
 {
@@ -39,21 +33,16 @@ Payload:
   "sigla": "NN"
 }
 
-Excluir Departamento por ID:
-
-Método: DELETE
+Método: DELETE Excluir Departamento por ID:
 Endpoint: https://localhost:porta/api/departamento/{id}
-Listar Funcionários de um Departamento:
 
-Método: GET
+Método: GET Listar Funcionários de um Departamento:
 Endpoint: https://localhost:porta/api/departamento/{id}/funcionarios
-Obter Funcionário por ID:
 
-Método: GET
+Método: GET Obter Funcionário por ID:
 Endpoint: https://localhost:porta/api/funcionario/{id}
-Criar Novo Funcionário:
 
-Método: POST
+Método: POST Criar Novo Funcionário:
 Endpoint: https://localhost:porta/api/funcionario
 Payload:
 {
@@ -63,9 +52,7 @@ Payload:
   "departamentoId": 1
 }
 
-Editar Funcionário por ID:
-
-Método: PUT
+Método: PUT Editar Funcionário por ID:
 Endpoint: https://localhost:porta/api/funcionario/{id}
 Payload:
 {
@@ -76,7 +63,5 @@ Payload:
   "departamentoId": 1
 }
 
-Excluir Funcionário por ID:
-
-Método: DELETE
+Método: DELETE Excluir Funcionário por ID:
 Endpoint: https://localhost:porta/api/funcionario/{id}
